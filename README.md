@@ -54,15 +54,11 @@ This project implements a GridWorld environment where two agents learn optimal n
    git clone <repository-link>
    cd GridWorld-Q-Learning
    ```
-2. Install dependencies:
+2. Run the simulation after installing dependencies:
    ```bash
-   pip install -r requirements.txt
+   python dc.py
    ```
-3. Run the simulation:
-   ```bash
-   python main.py
-   ```
-4. Follow the GUI prompts to configure and start the simulation.
+3. Follow the GUI prompts to configure and start the simulation.
 
 ## Demonstrations
 1. **Training Visualization**: Observe agents navigating the grid, avoiding penalties, and optimizing movements toward terminal states.
